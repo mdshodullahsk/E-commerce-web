@@ -1,0 +1,8 @@
+#home {
+    margin-top: 6%;
+}
+.cover {
+    background-color: rgb(155, 119, 119);
+    border-radius: 30px;
+    background-size: cover;
+}
