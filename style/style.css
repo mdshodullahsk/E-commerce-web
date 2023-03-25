@@ -12,19 +12,33 @@
 }
 /* Conatct form */
 .contact-form {
-    height: 300px;
+    height: 50vh;
     background-color: #fcf1d1;
 }
 .form {
-    padding: 5px 40px;
+    padding: 5px 30px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-right: none;
 }
 .form-btn {
-    padding: 9px 15px;
+    padding: 8.5px 15px;
     background-color: rgb(75, 43, 43);
     color: white;
-    border-radius: 40px 999em 999em 40px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
 .footer {
     background-color: #4D4D4D;
     color: white;
 }
+/* contain div none */
+.hide {
+    display: none;
+}
+/* Tab media queary */
+@media screen and (min-width: 375px) and (max-width: 834px) {
+    .hide {
+        display: block;
+    }
+  }
