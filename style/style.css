@@ -44,8 +44,19 @@
 }
 .social-icon {
     text-decoration: none;
-    color: white;
     font-size: 30px;
+}
+.facebook {
+    color: #4267B2;
+}
+.linkedin {
+    color: #0072b1;
+}
+.instagram {
+    color: #feda75;
+}
+.youtube {
+    color: #FF0000;
 }
 
   /* Media query */
