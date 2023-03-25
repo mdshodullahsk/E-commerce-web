@@ -1,8 +1,30 @@
 #home {
-    margin-top: 6%;
+    margin-top: 5%;
 }
 .cover {
-    background-color: rgb(155, 119, 119);
     border-radius: 30px;
     background-size: cover;
+    height: 80vh;
+    background-color: #FFF2CC;
+}
+#product {
+    background-color: #fcf1d1;
+}
+/* Conatct form */
+.contact-form {
+    height: 300px;
+    background-color: #fcf1d1;
+}
+.form {
+    padding: 5px 40px;
+}
+.form-btn {
+    padding: 9px 15px;
+    background-color: rgb(75, 43, 43);
+    color: white;
+    border-radius: 40px 999em 999em 40px;
+}
+.footer {
+    background-color: #4D4D4D;
+    color: white;
 }
