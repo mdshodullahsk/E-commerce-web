@@ -1,9 +1,9 @@
 #home {
     margin-top: 5%;
+    height: 100vh;
 }
 .cover {
     border-radius: 30px;
-    background-size: cover;
     height: 80vh;
     background-color: #FFF2CC;
 }
