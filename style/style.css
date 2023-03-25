@@ -1,12 +1,18 @@
 #home {
-    margin-top: 5%;
-    height: 100vh;
-}
-.cover {
-    border-radius: 30px;
-    height: 80vh;
     background-color: #FFF2CC;
+    border-radius: 30px;
+    margin-top: 5rem;
+    padding: 5rem;
 }
+.cover-heading {
+    font-size: 3rem;
+}
+.cover-peragrp {
+    font-size: 1rem;
+}
+.cover-img  img{
+    width: 100%;
+  }
 #product {
     background-color: #fcf1d1;
 }
@@ -42,3 +48,15 @@
         display: block;
     }
   }
+  /* Small Device */
+     /* small device */
+     @media (max-width: 768px) {
+        .cover {
+            display: flex;
+            flex-direction: column-reverse;
+        }  
+        #home {
+            padding: 6% 0;
+            
+        }
+       }
