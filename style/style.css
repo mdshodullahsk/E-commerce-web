@@ -42,13 +42,8 @@
 .hide {
     display: none;
 }
-/* Tab media queary */
-@media screen and (min-width: 375px) and (max-width: 834px) {
-    .hide {
-        display: block;
-    }
-  }
-  /* Small Device */
+
+  /* Media query */
      /* small device */
      @media (max-width: 768px) {
         .cover {
@@ -60,3 +55,19 @@
             
         }
        }
+/* media queary */
+/* medum device */
+@media (min-width: 768px) and (max-width: 992px) {
+    .hide {
+        display: block;
+    }
+    #home {
+        padding: 2%;
+    }
+    .cover-heading {
+        font-size: 1.5rem;
+    }
+    .cover-peragrp {
+        font-size: 1rem;
+    }
+}
