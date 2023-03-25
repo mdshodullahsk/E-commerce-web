@@ -51,8 +51,13 @@
             flex-direction: column-reverse;
         }  
         #home {
-            padding: 6% 0;
-            
+            padding: 6% 0;     
+        }
+        .form {
+            padding: 5px 5px;
+        }
+        .form-btn {
+            padding: 8.5px 6px;
         }
        }
 /* media queary */
